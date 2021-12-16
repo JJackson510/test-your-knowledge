@@ -1,24 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Your Knowledge</title>
-</head>
-<body>
+  </head>
+  <body>
     <h1 id="head">Do you know Hip Hop?</h1>
-    <div id="question-area" class="hide"></div>
-    <div  id="questions">question</div>
-    <button id="start-btn">start</button>
-    <button id="answer-btn">answer 1</button>
-    <button id="answer-btn">answer 2</button> 
-    <button id="answer-btn">answer 3</button> 
     <span id="timer"></span>
+    <div id="question-area" ></div>
+    <br />
+    <input type="radio" id="answer_1" name="answer_btn" value="" />
+      <label for="answer_1" id="answer_1_label"></label><br />
+      <input type="radio" id="answer_2" name="answer_btn" value="" />  
+    <label for="answer_2" id="answer_2_label"></label><br />
+      <input type="radio" id="answer_3" name="answer_btn" value="" />  
+    <label for="answer_3" id="answer_3_label"></label>
 
-    
-    <script src="assets/js/global.js"></script>
-    <script src="assets/js/questions.js"></script>
+    <br />
+    <br />
+    <button id="start-btn">Start</button>
+    <button id="submit-btn">Submit Answer</button>
+
+    <script src="./assets/js/global.js"></script>
+    <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>
-</body>
+  </body>
 </html>
