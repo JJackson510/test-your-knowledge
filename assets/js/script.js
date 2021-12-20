@@ -74,7 +74,7 @@ function onQuestionAnswer(answer) {
     console.log("right");
   } else {
     console.log("wrong");
-    /// other shit
+    /// other things
   }
 }
 
